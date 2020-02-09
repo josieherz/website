@@ -5,3 +5,10 @@ h1{
     background-image: url(https://source.unsplash.com/pWkk7iiCoDM/4000x3000);
    height: 100%;
 }
+.quizheader{
+    text-align: center;
+    color: rgb(4, 213, 228)
+}
+.quiz{
+    color: rgb(166, 26, 231);
+}
