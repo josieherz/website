@@ -15,3 +15,26 @@ h1{
 .quiz{
     color: rgb(166, 26, 231);
 }
+
+#factstitle{
+    text-align: center;
+    color: rgb(24, 83, 192);
+}
+
+#picturefacts{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto;
+    width: 100%;
+
+}
+
+.navbar{
+ background-color: rgba(15, 222, 230, 0.616);
+}
+.facts{
+    color: rgb(75, 212, 236);
+    font-size: 16px;
+
+}
