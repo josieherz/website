@@ -10,7 +10,65 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>quizzes</title>
+  <title>Quiz #1</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    
+    .sidebar a {
+      display: block;
+      color: rgb(109, 177, 255);
+      padding: 16px;
+      text-decoration: none;
+    }
+     
+    .sidebar a.active {
+      background-color: rgb(152, 75, 214);
+      color: white;
+    }
+    
+    .sidebar a:hover:not(.active) {
+      background-color: rgb(18, 229, 236);
+      color: white;
+    }
+    
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+    
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+    </style>
+
 </head>
 
 <body>
@@ -51,9 +109,18 @@
 </nav>
 
   <!--code goes here-->
+  <div class="sidebar">
+  <a class="active" href="quizzes.html">Quiz 1</a>
+  <a href="quiz2.html">Quiz 2</a>
+  <a href="quiz3.html">Quiz 3</a>
+  <a href="quiz4.html"> Quiz 4</a>
+</div>
+
+<div class="content">
+  
   
     
-      <h1 class="quizheader"> Quiz Questions</h1>
+      <h1 class="quizheader"> Pineapple quiz #1</h1>
     
     <div class="container">
       <div class="row">
@@ -241,6 +308,7 @@
   <div class="col-sm"></div>
   <div class="col-sm"></div>
 </div>
+  </div>
   </div>
 
  
