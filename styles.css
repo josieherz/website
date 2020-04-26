@@ -49,6 +49,12 @@ html {
 }
 
 
+.hidden{
+    z-index: -5;
+    margin-bottom: 5px;
+    color:yellow !important;
+
+}
 
 
 
